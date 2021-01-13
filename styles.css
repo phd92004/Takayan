@@ -1,0 +1,161 @@
+.profile-settings {
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    padding: 20px;
+    margin: 10px;
+
+}
+
+.list {
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+body {
+    display: flex;
+    background-color: black;
+    color: #faeeed;
+    font-family: 'Andika New Basic', sans-serif;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    border-radius: 50%;
+    width: 178px;
+    padding:2px;
+
+}
+
+img {
+    width: 250px;
+    border: 2px white solid;
+    height: auto;
+    padding: 8px;
+    margin: 10px;
+}
+
+.colum1 {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.colum2 {
+    display: flex;
+    flex-direction: row;
+}
+
+.one {
+    display: flex;
+    padding: 2px;
+    margin: 6px;
+    height: 50px;
+    border: 3px white solid;
+    flex-wrap: wrap;
+    align-content: space-around;
+    font-size: 20px;
+}
+
+.pick-set-1 {
+    font-size: 20px;
+}
+
+.top-left {
+    display: flex;
+    position: relative;
+}
+
+.t_l_f {
+    display: none;
+    position: absolute;
+    height: 285px;
+    width: 285px;
+
+}
+
+.top-left:hover .t_l_f {
+    display: block;
+}
+
+.top-middle {
+    display: flex;
+    position: relative;
+}
+
+.middle {
+    display: none;
+    position: absolute;
+    width: 285px;
+}
+
+.top-middle:hover .middle {
+    display: block;
+}
+
+.top-right {
+    display: flex;
+    position: relative;
+}
+
+.right {
+    display: none;
+    position: absolute;
+    width: 282px;
+    height: 282px;
+}
+
+.top-right:hover .right {
+    display: block;
+}
+
+
+.princess {
+    display: flex;
+    position: relative;
+    height: 378px;
+
+}
+
+.knight {
+    position: absolute;
+    display: none;
+}
+
+.princess:hover .knight {
+    display: block;
+}
+
+
+
+.downt-right:hover .down-3 {
+    display: block;
+}
+
+#test-dropdown{
+	height:20px;
+    font-family: 'Andika New Basic', sans-serif;
+    background-color:black;
+    color:white;
+    border-style: none;
+    margin:15px;
+    
+   
+}
+
+.flow{
+	background-color:black;
+    color:White;
+    border-style: none;
+    margin:15px;
+}
+
+.down{
+	background-color:black;
+    color:White;
+    border-style: none;
+    
+
+}
